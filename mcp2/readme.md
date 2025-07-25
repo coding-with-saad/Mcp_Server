@@ -63,7 +63,6 @@ uv run main.py
 npx @modelcontextprotocol/inspector
 ```
 
-
 ## Usage
 
 ### Basic Interaction
