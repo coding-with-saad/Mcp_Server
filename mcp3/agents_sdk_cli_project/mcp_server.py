@@ -10,6 +10,9 @@ docs = {
     "plan.md": "The plan outlines the steps for the project's implementation.",
     "spec.txt": "These specifications define the technical requirements for the equipment.",
 }
+@mcp.tool()
+def get_greeting(name:str) ->str:
+    return f"hello,{name}!"
 
 # TODO: Write a tool to read a doc
 # TODO: Write a tool to edit a doc
