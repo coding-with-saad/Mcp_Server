@@ -10,11 +10,16 @@ docs = {
     "plan.md": "The plan outlines the steps for the project's implementation.",
     "spec.txt": "These specifications define the technical requirements for the equipment.",
 }
-@mcp.tool()
-def get_greeting(name:str) ->str:
-    return f"hello,{name}!"
+# @mcp.tool()
+# def get_greeting(name:str) ->str:
+#     return f"hello,{name}!"
+
+
 
 # TODO: Write a tool to read a doc
+@mcp.tool()
+async def read_doc(doc_id:str) ->str:
+    return docs[doc_id]
 # TODO: Write a tool to edit a doc
 # TODO: Write a resource to return all doc id's
 # TODO: Write a resource to return the contents of a particular doc
