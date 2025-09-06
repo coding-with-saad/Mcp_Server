@@ -245,7 +245,7 @@ Here’s the flow diagram showing how LLMs work:
 
 * You give a Prompt (input) →
 
-The AI’s Prediction Engine (autocomplete) processes it →
+* The AI’s Prediction Engine (autocomplete) processes it →
 
 Settings (Temperature, Top-K/Top-P, Token Limit) guide creativity, accuracy, and length →
 
