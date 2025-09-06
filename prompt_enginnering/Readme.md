@@ -239,7 +239,7 @@ These settings influence how prompts and contexts affect the output:
 
 ---
 
-<img src="hello.png" alt="Flow diagram" width="300"/>
+<img src="hello.png" alt="Flow diagram" height="100" width="300"/>
 
 Here’s the flow diagram showing how LLMs work:
 
