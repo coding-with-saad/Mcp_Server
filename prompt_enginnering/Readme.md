@@ -249,7 +249,7 @@ Here’s the flow diagram showing how LLMs work:
 
 * Settings (Temperature, Top-K/Top-P, Token Limit) guide creativity, accuracy, and length →
 
-Finally, you get the AI’s Output (response).
+* Finally, you get the AI’s Output (response).
 
 
 
