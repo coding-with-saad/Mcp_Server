@@ -243,7 +243,7 @@ These settings influence how prompts and contexts affect the output:
 
 Here’s the flow diagram showing how LLMs work:
 
-You give a Prompt (input) →
+* You give a Prompt (input) →
 
 The AI’s Prediction Engine (autocomplete) processes it →
 
