@@ -19,7 +19,6 @@
   - [3.5. Use Instructions Over Constraints](#35-use-instructions-over-constraints)
   - [3.6. Control Output Format](#36-control-output-format)
   - [3.7. Use Variables for Reusability](#37-use-variables-for-reusability)
-  - [3.8. Iterate and Document](#38-iterate-and-document)
 
 ## 1. Fundamental Prompting Techniques
 
@@ -364,30 +363,3 @@ Role: You are a {expertise} expert
 Task: Analyze the {document_type} and provide recommendations for {target_audience}
 Context: This is for a {industry} company with {company_size} employees
 ```
-
-### 3.8. Iterate and Document
-
-- Keep track of what works and what doesn't
-- Document your successful prompts
-- Test variations to improve performance- [1. Fundamental Prompting Techniques](#1-fundamental-prompting-techniques)
-  - [1.1. Zero-Shot Prompting](#11-zero-shot-prompting)
-  - [1.2. One-Shot Prompting](#12-one-shot-prompting)
-  - [1.3. Few-Shot Prompting](#13-few-shot-prompting)
-  - [1.4. System Prompting](#14-system-prompting)
-  - [1.5. Role Prompting](#15-role-prompting)
-  - [1.6. Contextual Prompting](#16-contextual-prompting)
-- [2. Advanced Prompting Strategies](#2-advanced-prompting-strategies)
-  - [2.1. Chain of Thought (CoT) Prompting](#21-chain-of-thought-cot-prompting)
-  - [2.2. Self-Consistency](#22-self-consistency)
-  - [2.3. Step-Back Prompting](#23-step-back-prompting)
-  - [2.4. ReAct (Reasoning + Acting)](#24-react-reasoning--acting)
-  - [2.5. Tree of Thoughts (ToT)](#25-tree-of-thoughts-tot)
-- [3. Best Practices for Effective Prompts](#3-best-practices-for-effective-prompts)
-  - [3.1. Be Specific and Clear](#31-be-specific-and-clear)
-  - [3.2. Use Action Verbs](#32-use-action-verbs)
-  - [3.3. Provide Examples When Possible](#33-provide-examples-when-possible)
-  - [3.4. Structure Your Prompts](#34-structure-your-prompts)
-  - [3.5. Use Instructions Over Constraints](#35-use-instructions-over-constraints)
-  - [3.6. Control Output Format](#36-control-output-format)
-  - [3.7. Use Variables for Reusability](#37-use-variables-for-reusability)
-  - [3.8. Iterate and Document](#38-iterate-and-document)
