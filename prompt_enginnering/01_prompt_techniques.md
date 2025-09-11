@@ -1,7 +1,7 @@
-# 1. "Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction"
+#  Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction
 
 
-- [1. "Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction"](#1-comprehensive-guide-to-fundamental-and-advanced-prompting-techniques-for-effective-ai-interaction)
+- [Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction](#comprehensive-guide-to-fundamental-and-advanced-prompting-techniques-for-effective-ai-interaction)
   - [1.1. Fundamental Prompting Techniques](#11-fundamental-prompting-techniques)
     - [1.1.1. Zero-Shot Prompting](#111-zero-shot-prompting)
     - [1.1.2. One-Shot Prompting](#112-one-shot-prompting)

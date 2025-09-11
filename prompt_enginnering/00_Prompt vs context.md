@@ -1,8 +1,8 @@
-# 1. Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
+#  Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
 ## 1.1. Table of Contents
 
-- [1. Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication](#1-prompt-and-context-engineering-tutorial-for-beginners-a-comprehensive-guide-to-effective-ai-communication)
+- [Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication](#prompt-and-context-engineering-tutorial-for-beginners-a-comprehensive-guide-to-effective-ai-communication)
   - [1.1. Table of Contents](#11-table-of-contents)
   - [1.2. What is Prompt Engineering?](#12-what-is-prompt-engineering)
   - [1.3. Prompt engineering vs. context engineering](#13-prompt-engineering-vs-context-engineering)
