@@ -1,27 +1,24 @@
-#  Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
-
-## 1.1. Table of Contents
+# Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
 - [Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication](#prompt-and-context-engineering-tutorial-for-beginners-a-comprehensive-guide-to-effective-ai-communication)
-  - [1.1. Table of Contents](#11-table-of-contents)
-  - [1.2. What is Prompt Engineering?](#12-what-is-prompt-engineering)
-  - [1.3. Prompt engineering vs. context engineering](#13-prompt-engineering-vs-context-engineering)
-  - [1.4. 🔹 1. What is Prompt Engineering?](#14--1-what-is-prompt-engineering)
-    - [1.4.1. ✨ Key Features of Prompt Engineering:](#141--key-features-of-prompt-engineering)
+  - [1.1. What is Prompt Engineering?](#11-what-is-prompt-engineering)
+  - [1.2. Prompt engineering vs. context engineering](#12-prompt-engineering-vs-context-engineering)
+  - [1.3. 🔹 1. What is Prompt Engineering?](#13--1-what-is-prompt-engineering)
+    - [1.3.1. ✨ Key Features of Prompt Engineering:](#131--key-features-of-prompt-engineering)
+    - [1.3.2. ✅ Example:](#132--example)
+    - [1.3.3. ⚠️ Failure Mode:](#133-️-failure-mode)
+    - [1.3.4. 👨‍💻 Who usually does this?](#134--who-usually-does-this)
+  - [1.4. 🔹 2. What is Context Engineering?](#14--2-what-is-context-engineering)
+    - [1.4.1. ✨ Key Features of Context Engineering:](#141--key-features-of-context-engineering)
     - [1.4.2. ✅ Example:](#142--example)
     - [1.4.3. ⚠️ Failure Mode:](#143-️-failure-mode)
     - [1.4.4. 👨‍💻 Who usually does this?](#144--who-usually-does-this)
-  - [1.5. 🔹 2. What is Context Engineering?](#15--2-what-is-context-engineering)
-    - [1.5.1. ✨ Key Features of Context Engineering:](#151--key-features-of-context-engineering)
-    - [1.5.2. ✅ Example:](#152--example)
-    - [1.5.3. ⚠️ Failure Mode:](#153-️-failure-mode)
-    - [1.5.4. 👨‍💻 Who usually does this?](#154--who-usually-does-this)
-  - [1.6. 🔹 Quick Contrast Table](#16--quick-contrast-table)
-  - [1.7. 🔹 How LLMs Actually Work (Background)](#17--how-llms-actually-work-background)
-  - [1.8. 🔹 Key AI Configuration Settings](#18--key-ai-configuration-settings)
-  - [1.9. ✅ Final Summary](#19--final-summary)
+  - [1.5. 🔹 Quick Contrast Table](#15--quick-contrast-table)
+  - [1.6. 🔹 How LLMs Actually Work (Background)](#16--how-llms-actually-work-background)
+  - [1.7. 🔹 Key AI Configuration Settings](#17--key-ai-configuration-settings)
+  - [1.8. ✅ Final Summary](#18--final-summary)
 
-## 1.2. What is Prompt Engineering?
+## 1.1. What is Prompt Engineering?
 
 Prompt engineering is the art and science of crafting instructions that guide AI language models to produce desired outputs. Think of it as learning to communicate effectively with AI systems to achieve specific goals.
 
@@ -31,7 +28,7 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 - It's an iterative skill that improves with practice
 - It's becoming essential for productivity in many fields
 
-## 1.3. Prompt engineering vs. context engineering
+## 1.2. Prompt engineering vs. context engineering
 
 Artificial Intelligence (AI) systems like ChatGPT and other **Large Language Models (LLMs)** can generate text, answer questions, write code, or even act as assistants. But to make them work **accurately and reliably**, we need to carefully control **how we talk to them** and **what knowledge we give them**.
 
@@ -42,13 +39,13 @@ Two key techniques help in this process:
 
 ---
 
-## 1.4. 🔹 1. What is Prompt Engineering?
+## 1.3. 🔹 1. What is Prompt Engineering?
 
 **Prompt Engineering** means **designing and writing effective instructions** (called *prompts*) for the AI so that it produces the desired output.
 
 👉 Think of it like giving **clear directions to a worker**. The clearer you are, the better the worker performs.
 
-### 1.4.1. ✨ Key Features of Prompt Engineering:
+### 1.3.1. ✨ Key Features of Prompt Engineering:
 
 * **Goal:** Tell the model *how to behave* and *what kind of answer to produce*.
 * **Levers (things you can adjust):**
@@ -59,14 +56,14 @@ Two key techniques help in this process:
   * Constraints (e.g., “Answer in 100 words only”)
   * Few-shot examples (showing the AI some input-output pairs as examples)
 
-### 1.4.2. ✅ Example:
+### 1.3.2. ✅ Example:
 
 * Bad Prompt: *“Tell me about climate change.”*
 * Good Prompt: *“Write a 100-word summary on climate change in simple English for school students.”*
 
 The second one is **engineered** because it gives **clear structure, audience, and style**.
 
-### 1.4.3. ⚠️ Failure Mode:
+### 1.3.3. ⚠️ Failure Mode:
 
 If prompts are **too vague**, the model may:
 
@@ -74,7 +71,7 @@ If prompts are **too vague**, the model may:
 * Use messy formatting
 * Produce irrelevant text
 
-### 1.4.4. 👨‍💻 Who usually does this?
+### 1.3.4. 👨‍💻 Who usually does this?
 
 * UX designers
 * App developers
@@ -84,13 +81,13 @@ They focus on making AI **user-friendly and reliable**.
 
 ---
 
-## 1.5. 🔹 2. What is Context Engineering?
+## 1.4. 🔹 2. What is Context Engineering?
 
 **Context Engineering** means **curating and providing the right background information** for the AI before it answers.
 
 👉 Think of it like giving the **worker a toolbox and instruction manual** before asking them to fix something.
 
-### 1.5.1. ✨ Key Features of Context Engineering:
+### 1.4.1. ✨ Key Features of Context Engineering:
 
 * **Goal:** Give the model **the facts, documents, or examples** it should rely on when answering.
 * **Levers (things you can adjust):**
@@ -102,7 +99,7 @@ They focus on making AI **user-friendly and reliable**.
   * Memory (chat history, saved facts)
   * State across turns (tracking conversation context)
 
-### 1.5.2. ✅ Example:
+### 1.4.2. ✅ Example:
 
 * Without Context: *“What is the company refund policy?”*
 
@@ -111,7 +108,7 @@ They focus on making AI **user-friendly and reliable**.
 
   * Now it gives an **accurate, company-specific answer**.
 
-### 1.5.3. ⚠️ Failure Mode:
+### 1.4.3. ⚠️ Failure Mode:
 
 If context is **missing or irrelevant**, the model may:
 
@@ -119,7 +116,7 @@ If context is **missing or irrelevant**, the model may:
 * Give outdated answers
 * Mislead the user
 
-### 1.5.4. 👨‍💻 Who usually does this?
+### 1.4.4. 👨‍💻 Who usually does this?
 
 * Data engineers
 * Machine Learning (ML) teams
@@ -129,7 +126,7 @@ They manage pipelines, indexing, and retrieval systems to keep AI answers **rele
 
 ---
 
-## 1.6. 🔹 Quick Contrast Table
+## 1.5. 🔹 Quick Contrast Table
 
 | **Aspect**         | **Prompt Engineering**                                    | **Context Engineering**                                      |
 | ------------------ | --------------------------------------------------------- | ------------------------------------------------------------ |
@@ -141,7 +138,7 @@ They manage pipelines, indexing, and retrieval systems to keep AI answers **rele
 
 ---
 
-## 1.7. 🔹 How LLMs Actually Work (Background)
+## 1.6. 🔹 How LLMs Actually Work (Background)
 
 To fully understand why **Prompt and Context Engineering** matter, let’s quickly see how **Large Language Models (LLMs)** generate answers:
 
@@ -154,7 +151,7 @@ To fully understand why **Prompt and Context Engineering** matter, let’s quick
 
 ---
 
-## 1.8. 🔹 Key AI Configuration Settings
+## 1.7. 🔹 Key AI Configuration Settings
 
 These settings influence how prompts and contexts affect the output:
 
@@ -179,7 +176,7 @@ These settings influence how prompts and contexts affect the output:
 
 ---
 
-## 1.9. ✅ Final Summary
+## 1.8. ✅ Final Summary
 
 * **Prompt Engineering = HOW you ask.**
 * **Context Engineering = WHAT knowledge you give.**
