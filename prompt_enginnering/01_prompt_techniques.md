@@ -1,28 +1,32 @@
-- [1. Fundamental Prompting Techniques](#1-fundamental-prompting-techniques)
-  - [1.1. Zero-Shot Prompting](#11-zero-shot-prompting)
-  - [1.2. One-Shot Prompting](#12-one-shot-prompting)
-  - [1.3. Few-Shot Prompting](#13-few-shot-prompting)
-  - [1.4. System Prompting](#14-system-prompting)
-  - [1.5. Role Prompting](#15-role-prompting)
-  - [1.6. Contextual Prompting](#16-contextual-prompting)
-- [2. Advanced Prompting Strategies](#2-advanced-prompting-strategies)
-  - [2.1. Chain of Thought (CoT) Prompting](#21-chain-of-thought-cot-prompting)
-  - [2.2. Self-Consistency](#22-self-consistency)
-  - [2.3. Step-Back Prompting](#23-step-back-prompting)
-  - [2.4. ReAct (Reasoning + Acting)](#24-react-reasoning--acting)
-  - [2.5. Tree of Thoughts (ToT)](#25-tree-of-thoughts-tot)
-- [3. Best Practices for Effective Prompts](#3-best-practices-for-effective-prompts)
-  - [3.1. Be Specific and Clear](#31-be-specific-and-clear)
-  - [3.2. Use Action Verbs](#32-use-action-verbs)
-  - [3.3. Provide Examples When Possible](#33-provide-examples-when-possible)
-  - [3.4. Structure Your Prompts](#34-structure-your-prompts)
-  - [3.5. Use Instructions Over Constraints](#35-use-instructions-over-constraints)
-  - [3.6. Control Output Format](#36-control-output-format)
-  - [3.7. Use Variables for Reusability](#37-use-variables-for-reusability)
+# 1. "Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction"
 
-## 1. Fundamental Prompting Techniques
 
-### 1.1. Zero-Shot Prompting
+- [1. "Comprehensive Guide to Fundamental and Advanced Prompting Techniques for Effective AI Interaction"](#1-comprehensive-guide-to-fundamental-and-advanced-prompting-techniques-for-effective-ai-interaction)
+  - [1.1. Fundamental Prompting Techniques](#11-fundamental-prompting-techniques)
+    - [1.1.1. Zero-Shot Prompting](#111-zero-shot-prompting)
+    - [1.1.2. One-Shot Prompting](#112-one-shot-prompting)
+    - [1.1.3. Few-Shot Prompting](#113-few-shot-prompting)
+    - [1.1.4. System Prompting](#114-system-prompting)
+    - [1.1.5. Role Prompting](#115-role-prompting)
+    - [1.1.6. Contextual Prompting](#116-contextual-prompting)
+  - [1.2. Advanced Prompting Strategies](#12-advanced-prompting-strategies)
+    - [1.2.1. Chain of Thought (CoT) Prompting](#121-chain-of-thought-cot-prompting)
+    - [1.2.2. Self-Consistency](#122-self-consistency)
+    - [1.2.3. Step-Back Prompting](#123-step-back-prompting)
+    - [1.2.4. ReAct (Reasoning + Acting)](#124-react-reasoning--acting)
+    - [1.2.5. Tree of Thoughts (ToT)](#125-tree-of-thoughts-tot)
+  - [1.3. Best Practices for Effective Prompts](#13-best-practices-for-effective-prompts)
+    - [1.3.1. Be Specific and Clear](#131-be-specific-and-clear)
+    - [1.3.2. Use Action Verbs](#132-use-action-verbs)
+    - [1.3.3. Provide Examples When Possible](#133-provide-examples-when-possible)
+    - [1.3.4. Structure Your Prompts](#134-structure-your-prompts)
+    - [1.3.5. Use Instructions Over Constraints](#135-use-instructions-over-constraints)
+    - [1.3.6. Control Output Format](#136-control-output-format)
+    - [1.3.7. Use Variables for Reusability](#137-use-variables-for-reusability)
+
+## 1.1. Fundamental Prompting Techniques
+
+### 1.1.1. Zero-Shot Prompting
 
 The simplest approach—just ask directly without examples.
 
@@ -37,7 +41,7 @@ Classify this movie review as positive, negative, or neutral:
 - When the model has clear knowledge of the domain
 - Quick one-off requests
 
-### 1.2. One-Shot Prompting
+### 1.1.2. One-Shot Prompting
 
 Provide a single example to guide the response format.
 
@@ -52,7 +56,7 @@ English: "Where is the library?"
 French:
 ```
 
-### 1.3. Few-Shot Prompting
+### 1.1.3. Few-Shot Prompting
 
 Provide multiple examples to establish a clear pattern.
 
@@ -76,7 +80,7 @@ JSON:
 - Mix up the classes in classification tasks
 - Ensure examples are high-quality and consistent
 
-### 1.4. System Prompting
+### 1.1.4. System Prompting
 
 Set overall context and behavior guidelines.
 
@@ -91,7 +95,7 @@ You are a helpful travel guide. Provide practical, accurate information about de
 User: Tell me about visiting Tokyo.
 ```
 
-### 1.5. Role Prompting
+### 1.1.5. Role Prompting
 
 Assign a specific character or expertise to the AI.
 
@@ -106,7 +110,7 @@ Act as an experienced software architect. I need help designing a scalable web a
 - Analytical roles (data analyst, consultant)
 - Communication styles (friendly tutor, formal advisor)
 
-### 1.6. Contextual Prompting
+### 1.1.6. Contextual Prompting
 
 Provide specific background information relevant to the task.
 
@@ -117,9 +121,9 @@ Context: You're writing for a tech blog aimed at beginners who have never coded 
 Write a 200-word explanation of what an API is, using simple language and practical examples.
 ```
 
-## 2. Advanced Prompting Strategies
+## 1.2. Advanced Prompting Strategies
 
-### 2.1. Chain of Thought (CoT) Prompting
+### 1.2.1. Chain of Thought (CoT) Prompting
 
 Encourage step-by-step reasoning for complex problems.
 
@@ -142,7 +146,7 @@ Let me think through this step by step:
 - Set temperature to 0 for consistent reasoning
 - Extract final answers separately from reasoning
 
-### 2.2. Self-Consistency
+### 1.2.2. Self-Consistency
 
 Generate multiple reasoning paths and select the most common answer.
 
@@ -169,7 +173,7 @@ Most common answer: $40
 **Explanation of Concept:**
 Self-Consistency involves generating multiple answers to the same question using varied reasoning approaches to ensure reliability. By comparing the results, you select the most frequent or consistent outcome, reducing the chance of errors from a single flawed reasoning path. This method leverages the model's ability to approach the problem from different angles, increasing confidence in the final answer when all paths converge, as seen here with the consistent result of $40.
 
-### 2.3. Step-Back Prompting
+### 1.2.3. Step-Back Prompting
 
 Ask a more general question first, then use that context for the specific question.
 
@@ -209,7 +213,7 @@ Response:
 Step-Back Prompting involves first asking a broader, foundational question to establish key principles or context before tackling the specific task. This approach ensures the model grounds its response in general knowledge (e.g., factors affecting website speed) before applying it to the specific problem (e-commerce site optimization). By breaking the task into two steps, the model produces more informed and structured recommendations, reducing the risk of overlooking critical factors.
 
 
-### 2.4. ReAct (Reasoning + Acting)
+### 1.2.4. ReAct (Reasoning + Acting)
 
 Combine reasoning with tool use or actions.
 
@@ -250,7 +254,7 @@ Final Answer: Tokyo's population is approximately 37.4 million, compared to New 
 **Explanation of Concept:**
 ReAct (Reasoning + Acting) is a prompting strategy that interleaves reasoning steps (Thoughts) with actions (tool calls or external queries) to solve complex problems iteratively. Each cycle includes a Thought (planning the next step), an Action (executing a tool or search), and an Observation (processing the result). This loop continues until the question is resolved, allowing the model to dynamically gather information and refine its approach. It's particularly useful for tasks requiring real-time data or multi-step verification, as demonstrated by sequentially fetching and comparing population data.
 
-### 2.5. Tree of Thoughts (ToT)
+### 1.2.5. Tree of Thoughts (ToT)
 
 Explore multiple reasoning branches simultaneously for complex problems.
 
@@ -297,9 +301,9 @@ Final Strategy: Launch with a TikTok influencer campaign showcasing eco-friendly
 Tree of Thoughts (ToT) involves generating multiple reasoning branches to explore different solutions to a problem, evaluating each, and synthesizing the best ideas into a final answer. Each branch represents a distinct approach, which is explored, assessed for pros and cons, and scored. This method is ideal for complex, open-ended tasks like strategic planning, as it encourages creative exploration and systematic comparison, as shown in the marketing strategy example above.
 
 
-## 3. Best Practices for Effective Prompts
+## 1.3. Best Practices for Effective Prompts
 
-### 3.1. Be Specific and Clear
+### 1.3.1. Be Specific and Clear
 
 **Bad:**
 ```
@@ -311,18 +315,18 @@ Write about dogs.
 Write a 300-word informative article about the health benefits of owning a dog, focusing on mental health, physical activity, and social connections. Use a friendly, accessible tone for general readers.
 ```
 
-### 3.2. Use Action Verbs
+### 1.3.2. Use Action Verbs
 
 Be explicit about what you want the AI to do:
 - Analyze, Compare, Create, Describe, Evaluate
 - Extract, Generate, List, Rank, Summarize
 - Translate, Write, Explain, Classify
 
-### 3.3. Provide Examples When Possible
+### 1.3.3. Provide Examples When Possible
 
 Examples are the most powerful way to communicate your expectations.
 
-### 3.4. Structure Your Prompts
+### 1.3.4. Structure Your Prompts
 
 Use clear formatting:
 ```
@@ -332,7 +336,7 @@ Format: [How you want the output structured]
 Example: [Sample of desired output]
 ```
 
-### 3.5. Use Instructions Over Constraints
+### 1.3.5. Use Instructions Over Constraints
 
 **Better:**
 ```
@@ -344,7 +348,7 @@ Write a professional email summarizing the key points from our meeting.
 Write an email but don't make it too long or too informal or too detailed.
 ```
 
-### 3.6. Control Output Format
+### 1.3.6. Control Output Format
 
 Specify exactly how you want the response structured:
 ```
@@ -356,7 +360,7 @@ Return your answer as a JSON object with the following structure:
 }
 ```
 
-### 3.7. Use Variables for Reusability
+### 1.3.7. Use Variables for Reusability
 
 ```
 Role: You are a {expertise} expert
