@@ -105,7 +105,7 @@ Because this is a relatively new area, many ideas are experimental or at early a
 * Look for **tools** like Spec Kit (GitHub) that help integrate spec-driven workflows. ([The GitHub Blog][2])
 * Always include human review / validation in any AI-generated output.
 * Start small: use prompt-driven methods for prototypes or non-critical parts, and spec-driven for core modules.
-* Continuously refine your spec, prompts, and governance (tests, validation) as you lea
+* Continuously refine your spec, prompts, and governance (tests, validation) as you learn
 * Be aware of limitations in LLMs (hallucinations, context window limits, non-determinism).
 
 ---
