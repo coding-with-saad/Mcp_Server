@@ -136,4 +136,8 @@ So, both are useful — it just depends on **where and how you want to use your 
   ⚙️ Great for: AI developers building advanced systems.
 
 ---
+![](image/image.png)
+
+---
+
 
